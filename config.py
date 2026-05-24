@@ -19,7 +19,7 @@ UNIVERSES = {
     ]
 }
 
-# L∞ parameters
-MAX_BRACKET_ORDER = 3       # compute contributions up to 3‑brackets
-PERTURBATION_STRENGTH = 0.1 # small parameter for higher brackets
+MAX_BRACKET_ORDER = 3
+PERTURBATION_STRENGTH = 0.1
+MAX_LAG = 5               # new parameter for lead‑lag matrix
 TOP_N = 3
